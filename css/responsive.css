@@ -378,6 +378,28 @@ ul.Countdown-ul li span {
     border-radius: 15px;
 }
 }
+@media only screen and (max-width:390px){
+  .Countdown-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -476px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 628px;
+    border-radius: 15px;
+}
+}
+@media only screen and (max-width:375px){
+  .Countdown-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -456px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 611px;
+    border-radius: 15px;
+}
+}
 @media only screen and (max-width:350px){
   .Countdown-ul {
     width: 100%;
