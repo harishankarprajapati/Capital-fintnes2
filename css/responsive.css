@@ -215,8 +215,6 @@ div#nav-tab {
 }
 
 
-
-
 @media only screen and (max-width:767px) {
   a.navbar-brand {
     width: 30%;
@@ -344,8 +342,44 @@ ul.Countdown-ul li span {
 
 }
 
+@media only screen and (max-width:565px) {
+  .Countdown-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -500px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 660px;
+    border-radius: 15px;
+}
+}
 
 
+@media only screen and (max-width:420px){
+  .Countdown-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -456px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 607px;
+    border-radius: 15px;
+}
+}
+
+
+
+@media only screen and (max-width:350px){
+  .Countdown-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -421px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 578px;
+    border-radius: 15px;
+  }
+}
 
 
 
