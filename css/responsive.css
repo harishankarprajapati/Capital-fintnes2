@@ -360,16 +360,37 @@ ul.Countdown-ul li span {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: -504px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 665px;
+    border-radius: 15px;
+}
+}
+
+@media only screen and (max-width:411px){
+  .Countdown-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     margin-top: -456px;
     padding: 10px 10px 0px 10px;
     margin-bottom: 607px;
     border-radius: 15px;
 }
 }
-
-
-
 @media only screen and (max-width:350px){
+  .Countdown-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -451px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 602px;
+    border-radius: 15px;
+}
+}
+
+@media only screen and (max-width:321px){
   .Countdown-ul {
     width: 100%;
     display: flex;
