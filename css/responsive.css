@@ -47,8 +47,55 @@ button.nav-link.col-lg-12 p {
   line-height: 91px;
   padding-top: 50px;
 }
+.sec-tab-bg {
+  margin-top: -120px !important;
+}
+.secherotext {
+  font-size: 90px;
+}
+.herobtn a {
+  font-size: 25px;
+  padding: 19px 36px;
 
 }
+.nav-tabs .nav-link {
+  text-align: start;
+  font-size: 24px;
+}
+.deals-bg {
+  height: 516px;
+}
+.sec-count-zz {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.col-md-6.secpade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.googlp p {
+  font-size: 20px;
+}
+.namegog {
+  font-size: 22px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -156,6 +203,12 @@ button.nav-link {
 }
 
 }
+
+
+
+
+
+
 
 
 @media only screen and (max-width:991px) {

@@ -278,6 +278,7 @@ div#nav-tab {
 .tabb .owl-dots {
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 40px;
 }
  .owl-dots .owl-dot span {
   width: 20px;
@@ -483,7 +484,7 @@ font-weight: 700;
 }
 .secwhybtn{
   text-align: center;
-  padding: 40px 0px;
+  padding: 40px 0px 67px 0px;
 }
 .secwhybtn a{
   font-family: 'Poppins';
