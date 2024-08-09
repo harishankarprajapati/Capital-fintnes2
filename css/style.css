@@ -921,11 +921,14 @@ button.nav-link.col-lg-12 p {
 }
 .accordion-body p{
   font-family: 'Inter';
-  font-size: 100px;
-  line-height: 75px;
-  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
   margin: 0;
   font-weight: 500;
+}
+.seccatepadd{
+  padding-bottom: 50px;
 }
 .accordion-item{
   border: 0px;
@@ -1110,10 +1113,12 @@ button.owl-dot.active {
 }
 
 .filter-arr {
-  color: #979797;
+  color: #979797 !important;
   font-family: 'poppins';
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 33px !important;
+
 }
 
 .filter-arr:hover {
