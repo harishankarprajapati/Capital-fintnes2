@@ -81,6 +81,12 @@ button.nav-link.col-lg-12 p {
 .namegog {
   font-size: 22px;
 }
+.big-img {
+  margin: auto;
+  width: 490px;
+    height: 520px;
+}
+
 
 
 }
@@ -201,7 +207,24 @@ button.nav-link {
 .sectextfoot p a , .secaddre a , .secaddre{
   font-size: 14px;
 }
-
+.img-selection {
+  position: relative;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+.big-img {
+  position: relative;
+  width: 422px;
+  height: 343px;
+}
+.dt-name {
+  font-size: 30px;
+}
+.dt-sale {
+  font-size: 30px;
 }
 
 
@@ -265,7 +288,27 @@ div#nav-tab {
 .secquick {
   padding-top: 30px;
 }
+/* .img-selection {
+  position: absolute;
+  right: 198px;
+} */
+.dt-name {
+  font-size: 30px;
+  padding-top: 20px;
 }
+.big-img {
+  position: relative;
+  width: 422px;
+  height: 441px;
+}
+
+}
+
+
+
+
+
+
 
 
 @media only screen and (max-width:767px) {
@@ -313,7 +356,10 @@ button.navbar-toggler {
 .col-sm-3.sec-cart-main-box {
   padding-left: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+}
+.col-sm-9 {
+  padding: 0;
 }
 .tittle-day {
   font-size: 36px;
@@ -392,8 +438,82 @@ ul.Countdown-ul li span {
 .secdumbimg {
   text-align: center;
 }
+.big-img {
+  width: 293px;
+  height: 319px;
+}
+.img-selection {
+  position: relative  !important;
+  display: flex;
+  width: 282px;
+  height: 85px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.img-thumbnail {
+  margin-top: 0px;
+  margin-right: 5px;
+}
+.container-fluid.card-wrapper.pt-5.pb-5 {
+  padding-top: 10px !important;
+}
+.dt-name {
+  font-size: 23px;
+  padding-top: 26px;
+}
+.dt-mrp {
+  font-size: 15px;
+}
+.dt-sale {
+  font-size: 20px;
+}
+.buy-now-btn  {
+  padding: 12px 46px;
+  font-size: 18px;
+}
+.add-cart-btn {
+  padding: 12px 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.Buy-Now {
+  padding-top: 12px;
+}
+.p-Description .nav-tabs .nav-link {
+  font-size: 14px;
+}
+.left-right {
+  padding: 0px 0px;
+}
+.socalmedia p {
+  padding-right: 20px;
+}
+.sec-relatrd {
+  font-size: 23px;
 
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:565px) {
   .Countdown-ul {
@@ -517,5 +637,6 @@ ul.Countdown-ul li span {
     margin-left: 15px;
     padding: 10px 0;
   }
+
 }
 /* search area box */
