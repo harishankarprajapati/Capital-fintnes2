@@ -9,8 +9,8 @@
   }
   .accordion-body p {
     font-family: 'Inter';
-    font-size: 18px !important;
-    line-height: 30px;
+    font-size: 26px !important;
+    line-height: 30px !important;
     color: #000;
     margin: 0;
     font-weight: 500;
