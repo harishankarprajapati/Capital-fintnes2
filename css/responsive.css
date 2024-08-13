@@ -7,6 +7,14 @@
     width: 1903px;
     margin: auto;
   }
+  .accordion-body p {
+    font-family: 'Inter';
+    font-size: 18px !important;
+    line-height: 30px;
+    color: #000;
+    margin: 0;
+    font-weight: 500;
+}
   .sechersliderbg h1 {
     font-family: 'Gilda Display';
     font-size: 100px;
