@@ -11,9 +11,13 @@
     font-family: 'Inter';
     font-size: 26px !important;
     line-height: 30px !important;
+    padding-top: 17px !important;
     color: #000;
     margin: 0;
     font-weight: 500;
+}
+button.accordion-button.border-bottom.fw-semibold.collapsed , .filter-arr a {
+  font-size: 23px;
 }
   .sechersliderbg h1 {
     font-family: 'Gilda Display';
