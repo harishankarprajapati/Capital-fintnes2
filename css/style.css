@@ -1487,3 +1487,18 @@ ul.list-group.list-group-flush {
   display: flex;
   justify-content: center;
 }
+.secproli{
+  text-align: center;
+  color: #000;
+  font-family: 'Poppins';
+  font-weight: 700;
+
+}
+.secpeivtext p{
+  color: #000;
+}
+.secpeivtext h5{
+  color: #000;
+  font-weight: 600;
+  padding-top: 15px;
+}

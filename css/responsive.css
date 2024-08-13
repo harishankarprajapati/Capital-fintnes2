@@ -7,6 +7,9 @@
     width: 1903px;
     margin: auto;
   }
+  .secherocony{
+    max-width: 1700px !important;
+  }
   .accordion-body p {
     font-family: 'Inter';
     font-size: 26px !important;
@@ -63,7 +66,7 @@ button.nav-link.col-lg-12 p {
   margin-top: -120px !important;
 }
 .secherotext {
-  font-size: 90px;
+  font-size: 110px;
 }
 .herobtn a {
   font-size: 25px;
