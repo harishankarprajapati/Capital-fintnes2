@@ -1621,3 +1621,52 @@ a{
   color: #0A142F;
   text-decoration: none;
 }
+.secaboutimgbg{
+  background-image: url(../images/aboutbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  margin-top: -30px;
+  height: 350px;
+}
+.secabuttext{
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 70px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 3px rgb(58, 58, 58);
+}
+.secpaddabot{
+  padding: 60px 10px;
+}
+
+.secabbtex h3{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 70px;
+  color: #000;
+}
+.secabbtex p{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+.secvisi{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 10px;
+}
+td{
+  color: #000;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+.onet{
+  background-color:#ececec !important;
+}
