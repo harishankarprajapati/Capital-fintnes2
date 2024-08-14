@@ -517,6 +517,23 @@ ul.Countdown-ul li span {
 .container-fluid.pb-5.pt-5 {
   padding: 0 !important;
 }
+.secabuttext {
+  font-size: 50px;
+}
+.secaboutimgbg {
+  height: 253px;
+}
+.secabbtex h3 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+.secabbtex p {
+  font-size: 18px;
+}
+td {
+  color: #000 !important  ;
+  font-size: 15px !important;
+}
 }
 
 
