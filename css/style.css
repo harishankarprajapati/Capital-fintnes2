@@ -354,7 +354,7 @@ ul.Countdown-ul li span {
   font-family: 'Poppins';
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   text-transform: uppercase;
 }
 ul.Countdown-ul li p {
@@ -1638,6 +1638,7 @@ a{
   font-size: 70px;
   text-transform: uppercase;
   -webkit-text-stroke: 3px rgb(58, 58, 58);
+  padding-top: 30px;
 }
 .secpaddabot{
   padding: 60px 10px;
