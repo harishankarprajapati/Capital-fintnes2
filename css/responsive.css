@@ -559,6 +559,17 @@ td {
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: #000 !important;
 }
+div#nav-tab {
+  border-bottom: 3px solid #BBB;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #000 !important;
+}
 }
 
 
