@@ -767,6 +767,23 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+  a.dropdown-item {
+    padding: 0;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+ul.dropdown-menu.show {
+  border: 0;
+  padding-top: 0;
+  padding-left: 8px;
+}
+ul.dropdown-menu.show {
+  margin-top: -6px;
+}
 }
 
 
