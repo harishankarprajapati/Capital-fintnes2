@@ -195,6 +195,12 @@ li.nav-item.calmenu a span{
 }
 .sec-tab-bg2 {
   background-color: #fbfaf1;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-fluid.SECprod-day.padd-mobile {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .card.border-0.sec-tab-border-bg {
   background: transparent;
@@ -218,7 +224,7 @@ button.nav-link {
 div#nav-tab {
   justify-content: center;
   border-bottom: 3px solid #BBB;
-  padding-top: 40px;
+  padding-top: 53px;
 }
 .tabhome .item {
   text-align: center;
@@ -434,7 +440,7 @@ ul.Countdown-ul li p {
   color: #EA544B;
 }
 .prodict-icons:hover {
-  color: #EA544B;
+  color: #EA544B !important;
 }
 .secdumbpadd{
   padding: 50px 10px;
@@ -443,6 +449,9 @@ ul.Countdown-ul li p {
   margin-top: -161px;
   margin-bottom:90px;
   padding-left: 20px;
+}
+.secprodcart .col-sm-9 {
+  padding-left: 0;
 }
 .srcdubtext h5{
 font-family: 'Poppins';
@@ -894,7 +903,7 @@ padding-top: 25px;
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link{
-  padding: 0px 62px;
+  padding: -1px 62px;
   border: 0px !important;
 }
 
