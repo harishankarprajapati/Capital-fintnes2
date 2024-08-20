@@ -1680,3 +1680,9 @@ td{
 .onet{
   background-color:#ececec !important;
 }
+.secgoogdis{
+  display:flex;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
