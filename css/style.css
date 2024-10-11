@@ -1686,3 +1686,24 @@ td{
     flex-direction: column;
     justify-content: center;
 }
+
+.poptext{
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.poptext2{
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 16px;
+  text-align: center;
+}
+.modal-dialog{
+  background: rgba(255, 186, 83, 0.877);
+  border-radius: 6px;
+}
+.modal-content{
+  background: transparent;
+}

@@ -25,7 +25,7 @@
     <!-- owl carousel 2 effects animation- -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet" />
 
-    
+
     <!-- Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,16 +75,61 @@
         </div>
 
     </div>
-     <!-- whatsapp -->
-   
-     <div class="floating_btn">
+    <!-- whatsapp -->
+
+    <div class="floating_btn">
         <a target="_blank" href="https://wa.me/+919818812761">
-          <div class="contact_icon">
-            <i class="fa-brands fa-whatsapp "></i>
-          </div>
+            <div class="contact_icon">
+                <i class="fa-brands fa-whatsapp "></i>
+            </div>
         </a>
         <p class="text_icon">Talk to us?</p>
-      </div>   
+    </div>
+
+
+    <!--poppup-start-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                   
+                    <div class="popbg">
+                        <h4 class="poptext">Don't Miss Out!</h4>
+                        <p class="poptext2">Enter your details below to unlock the more discount</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="exampleInputPassword1"
+                                    placeholder="+91 9876543210" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter your city" required>
+                            </div>
+                            <div class="text-center">
+                            <button type="submit" class="btn secbybtn ">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--poppup-end-->
+
+
     <!-- tab -->
     <div class="container-fluid sec-tab-bg ">
         <h1>Its time to choice</h1>
@@ -1268,7 +1313,7 @@
     <!-- google -->
     <div class="container-fluid googlebg">
         <div class="row m-0 m-0">
-            <div class="col-md-2 secgoogdis" >
+            <div class="col-md-2 secgoogdis">
                 <div class="gooleimg">
                     <img class="img-fluid" src="images/google.png" alt="">
                 </div>
@@ -1387,7 +1432,18 @@
     <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
 
     <script>
-          $('.owl-carousel.instagram').owlCarousel({
+
+        var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
+        myModal.show();
+
+
+
+
+
+
+
+
+        $('.owl-carousel.instagram').owlCarousel({
             loop: true,
             center: true,
             margin: 20,
@@ -1538,6 +1594,7 @@
             }
         });
         (jQuery);
+
 
 
     </script>
