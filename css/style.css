@@ -1709,3 +1709,7 @@ td{
   background: transparent;
   border: 0;
 }
+button.btn-close {
+  padding-right: 20px;
+  padding-top: 20px;
+}
