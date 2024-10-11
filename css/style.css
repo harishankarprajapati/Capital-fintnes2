@@ -1703,7 +1703,9 @@ td{
 .modal-dialog{
   background: rgba(255, 186, 83, 0.877);
   border-radius: 6px;
+  text-align: right;
 }
 .modal-content{
   background: transparent;
+  border: 0;
 }
